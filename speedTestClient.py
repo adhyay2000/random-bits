@@ -18,7 +18,9 @@ class element_present(object):
             return False
 
 try:
-    driver = webdriver.Chrome()
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+    driver = webdriver.Chrome(chrome_options=options)
     driver.get('https://librespeed.org/')
     result = {}
     element = WebDriverWait(driver,60).until(
