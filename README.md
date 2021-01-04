@@ -19,4 +19,4 @@ TODO:
 
 ## 2048
 A basic python implementation of 2048 with GUI made using PyQt5.
-Visit these link to know the rules https://rosettacode.org/wiki/2048. Objective is to score higest possible score. 
+Visit these link to know the rules https://rosettacode.org/wiki/2048. Objective is to get higest possible score. 
